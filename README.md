@@ -148,23 +148,6 @@ python evaluation/evaluate_agent.py
 | **Stability** | Target network synced every 1 000 steps |
 | **Termination** | Episode ends on win/loss or after 500 legal moves (draw) |
 
-### Board Layout (position indices)
-
-```
-00---------01---------02
-|          |          |
-|  08------09------10  |
-|  |       |       |  |
-|  |  16---17---18  |  |
-|  |  |         |  |  |
-07-15-23         19-11-03
-|  |  |         |  |  |
-|  |  22---21---20  |  |
-|  |       |       |  |
-|  14------13------12  |
-|          |          |
-06---------05---------04
-```
 
 ---
 
@@ -176,19 +159,6 @@ python evaluation/evaluate_agent.py
 - **Persistence**: SQLAlchemy + SQLite
 - **ML**: PyTorch
 - **Testing**: pytest + unittest
-
----
-
-## Roadmap
-
-- [x] Headless, deterministic game engine
-- [x] Unified 1 200-action flat action space with legal masking
-- [x] FastAPI backend with SQLite persistence
-- [x] DQN agent skeleton + replay buffer
-- [x] Random-agent baseline
-- [ ] Full DQN training loop (self-play)
-- [ ] Web UI for human-vs-AI play
-- [ ] ELO tournament mode
 
 ---
 
