@@ -1,0 +1,82 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ============================================================
+# Testing & Coverage
+# ============================================================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.log
+
+# ============================================================
+# Runtime / Generated Data
+# ============================================================
+# SQLite database (recreated at runtime via SQLAlchemy)
+storage/morabaraba.db
+
+# Any other databases that appear at runtime
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary directory
+tmp/
+
+# ============================================================
+# ML Model Weights
+# ============================================================
+# Trained model checkpoints are large binaries; reproduce via training
+models/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+
+# ============================================================
+# Dev-only scratch / result files
+# ============================================================
+test_frontend_results.md
+error.md
+AI_SERVICE_PROTOCOL.md
+DIAGNOSTIC_GUIDE.md
+ENGINE_TEST_SUITE_PROMPT.md
+PROJECT_STATE.md
+
+# ============================================================
+# IDEs & editors
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# OS artefacts
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
